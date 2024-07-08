@@ -1,6 +1,7 @@
+const imagembotatrocadetema = document.querySelector(".botao-alterar-tema");
 const botaoalterartema = document.getElementById("botao-alterar-tema");
 const body = document.querySelector("body");
-const imagembotatrocadetema = document.querySelector(".botao-alterar-tema")
+
 
 botaoalterartema.addEventListener("click", () => {
     const modoescuroestaativo = body.classList.contains("modo-escuro")

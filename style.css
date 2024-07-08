@@ -109,3 +109,7 @@ div .botao-alterar-tema:hover {
     transform: scale(1.07);
     cursor: pointer;
 }
+
+body.modo-escuro {
+    background-image: url(/Wallpaper.jpg);
+    }
