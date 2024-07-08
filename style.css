@@ -89,7 +89,7 @@ input {
 }
 
 div .botao-alterar-tema {
-    width: 30px;
+    width: 100px;
     transition: 0.2s ease-in-out;
 }
 
@@ -98,8 +98,11 @@ div #botao-alterar-tema {
     border: none;
     cursor: pointer;
     top: 20px;
-    right: px;
+    right: 20px;
     position: absolute;
+    overflow: hidden; 
+    top: 10px; 
+    right: 10px;
 }
 
 div .botao-alterar-tema:hover {
