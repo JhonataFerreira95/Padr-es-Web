@@ -14,3 +14,13 @@ console.log("aqui");
         imagembotatrocadetema.setAttribute("src", "./black-hole (1).svg")
     }
 });
+
+
+const btn = document.getElementById("botao");
+const input = document.querySelector("input");
+const h3 = document.querySelector("h3");
+
+btn.addEventListener("click", () => {
+    const adventurerName = input.value;
+    h3.innerText = `Hello ${adventurerName}, are you ready to grind in hystria ruins?`;
+});
